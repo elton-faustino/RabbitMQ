@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Producer", "RabbitMQ\RabbitMQ.Producer.csproj", "{3C50F183-2334-4D47-BACE-060A45FAF2F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{05D626F6-8FEA-40E0-A9D1-7F1E2DC52FA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices", "MicroServices", "{95B75F50-6FCF-40CE-8177-7CCC659F7870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1", "Example1\Example1.csproj", "{909BCD24-DFDF-4B28-B834-95071EE60FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C50F183-2334-4D47-BACE-060A45FAF2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C50F183-2334-4D47-BACE-060A45FAF2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C50F183-2334-4D47-BACE-060A45FAF2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C50F183-2334-4D47-BACE-060A45FAF2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D626F6-8FEA-40E0-A9D1-7F1E2DC52FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D626F6-8FEA-40E0-A9D1-7F1E2DC52FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D626F6-8FEA-40E0-A9D1-7F1E2DC52FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D626F6-8FEA-40E0-A9D1-7F1E2DC52FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909BCD24-DFDF-4B28-B834-95071EE60FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909BCD24-DFDF-4B28-B834-95071EE60FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909BCD24-DFDF-4B28-B834-95071EE60FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909BCD24-DFDF-4B28-B834-95071EE60FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{909BCD24-DFDF-4B28-B834-95071EE60FF6} = {95B75F50-6FCF-40CE-8177-7CCC659F7870}
+	EndGlobalSection
+EndGlobal
